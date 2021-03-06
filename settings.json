@@ -4,15 +4,7 @@
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 120,
     "initialRows": 30,
-    "keybindings": [
-        {
-            "command": {
-                "action": "openSettings",
-                "target": "settingsUI"
-            },
-            "keys": "ctrl+shift+,"
-        }
-    ],
+    "keybindings": [],
     "profiles": {
         "defaults": {
             "acrylicOpacity": 0.75,
