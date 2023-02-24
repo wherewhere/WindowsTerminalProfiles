@@ -1,32 +1,58 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "openSettings",
+                "target": "settingsUI"
+            },
+            "keys": "ctrl+shift+comma"
+        }
+    ],
     "alwaysShowTabs": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "initialCols": 120,
     "initialRows": 30,
-    "keybindings": [],
-    "profiles": {
-        "defaults": {
-            "acrylicOpacity": 0.75,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
             "antialiasingMode": "cleartype",
-            "colorScheme": "Google Dark",
-            "fontFace": "UbuntuMono Nerd Font Mono",
+            "colorScheme": "Fluent Design Dark",
+            "font": 
+            {
+                "face": "UbuntuMono Nerd Font Mono",
+                "size": 10.0
+            },
+            "opacity": 75,
             "useAcrylic": true
         },
-        "list": [
+        "list": 
+        [
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Dark",
+                "colorScheme": "Fluent Design Dark",
                 "commandline": "C:/Program Files/Git/bin/bash.exe",
-                "cursorColor": "#C5C8C6",
                 "cursorShape": "bar",
-                "fontFace": "UbuntuMono Nerd Font Mono",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 10.0
+                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402386}",
                 "historySize": 9001,
                 "icon": "C:/Users/qq251/OneDrive/\u56fe\u7247/Saved Pictures/icons/git.png",
                 "name": "Git",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -34,36 +60,39 @@
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Light",
-                "commandline": "C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.9_3.9.240.0_x64__qbz5n2kfra8p0/python3.9.exe",
-                "cursorColor": "#373B41",
+                "colorScheme": "Fluent Design Light",
+                "commandline": "C:/Program Files/WindowsApps/PythonSoftwareFoundation.Python.3.11_3.11.752.0_x64__qbz5n2kfra8p0/python3.11.exe",
                 "cursorShape": "bar",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 10.0
+                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402366}",
                 "historySize": 9001,
                 "icon": "C:/Users/qq251/OneDrive/\u56fe\u7247/Saved Pictures/icons/python.png",
                 "name": "Python",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Python 3.9",
+                "tabTitle": "Python 3.11",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Dark",
-                "commandline": "cmd.exe",
-                "cursorColor": "#C5C8C6",
+                "colorScheme": "Fluent Design Dark",
                 "cursorShape": "bar",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "Cascadia Code PL",
+                    "size": 10.0
+                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "historySize": 9001,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -71,35 +100,42 @@
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "background": "#481036",
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Dark",
+                "colorScheme": "Fluent Design Dark",
                 "commandline": "wsl.exe -d Ubuntu",
-                "cursorColor": "#C5C8C6",
                 "cursorShape": "bar",
-                "fontFace": "UbuntuMono Nerd Font Mono",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 10.0
+                },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
                 "historySize": 9001,
                 "name": "Ubuntu (WSL)",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
+                "source": "Windows.Terminal.Wsl",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "Ubuntu (WSL)",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Dark",
-                "cursorColor": "#C5C8C6",
+                "colorScheme": "Fluent Design Dark",
                 "cursorShape": "bar",
-                "fontFace": "UbuntuMono Nerd Font Mono",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 10.0
+                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
                 "historySize": 9001,
                 "name": "PowerShell Core",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "source": "Windows.Terminal.PowershellCore",
@@ -108,46 +144,64 @@
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.85000002384185791,
                 "closeOnExit": "never",
                 "colorScheme": "Solarized Dark",
                 "commandline": "Azure",
                 "connectionType": "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
-                "cursorColor": "#FFFFFF",
                 "cursorShape": "bar",
-                "fontFace": "Consolas",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 10.0
+                },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
                 "historySize": 9001,
                 "name": "Azure Cloud Shell",
+                "opacity": 85,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
+                "source": "Windows.Terminal.Azure",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "Azure Cloud Shell",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.75,
                 "background": "#012456",
                 "closeOnExit": "graceful",
-                "colorScheme": "Google Dark",
-                "commandline": "powershell.exe",
-                "cursorColor": "#C5C8C6",
+                "colorScheme": "Fluent Design Dark",
                 "cursorShape": "bar",
-                "fontFace": "UbuntuMono Nerd Font Mono",
-                "fontSize": 10,
+                "font": 
+                {
+                    "face": "UbuntuMono Nerd Font Mono",
+                    "size": 10.0
+                },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "historySize": 9001,
                 "name": "Windows PowerShell",
+                "opacity": 75,
                 "padding": "0, 0, 0, 0",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "Windows PowerShell",
                 "useAcrylic": true
+            },
+            {
+                "guid": "{bae6ec9a-6858-5d3a-b52c-d6cfb5e01bc5}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{77dfd842-b6aa-5b70-a60a-739ba0ccbc21}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022 [Preview]",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -193,6 +247,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#202020",
+            "black": "#202020",
+            "blue": "#76B9ED",
+            "brightBlack": "#272727",
+            "brightBlue": "#A6D8FF",
+            "brightCyan": "#B3F4F5",
+            "brightGreen": "#90D690",
+            "brightPurple": "#F7B8FF",
+            "brightRed": "#FFBDC2",
+            "brightWhite": "#CCCCCC",
+            "brightYellow": "#FFE8A8",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#80D6D9",
+            "foreground": "#FFFFFF",
+            "green": "#61BA61",
+            "name": "Fluent Design Dark",
+            "purple": "#E893F4",
+            "red": "#FF99A1",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFE08C"
+        },
+        {
+            "background": "#F3F3F3",
+            "black": "#1A1A1A",
+            "blue": "#005A9E",
+            "brightBlack": "#5C5C5C",
+            "brightBlue": "#004275",
+            "brightCyan": "#00393B",
+            "brightGreen": "#094209",
+            "brightPurple": "#470C4F",
+            "brightRed": "#6E0009",
+            "brightWhite": "#F9F9F9",
+            "brightYellow": "#805E00",
+            "cursorColor": "#1A1A1A",
+            "cyan": "#005659",
+            "foreground": "#1A1A1A",
+            "green": "#0C5C0C",
+            "name": "Fluent Design Light",
+            "purple": "#62116E",
+            "red": "#99000D",
+            "selectionBackground": "#1A1A1A",
+            "white": "#F3F3F3",
+            "yellow": "#BA8900"
         },
         {
             "background": "#1D1F21",
@@ -404,5 +504,7 @@
     ],
     "showTabsInTitlebar": true,
     "showTerminalTitleInTitlebar": true,
+    "themes": [],
+    "useAcrylicInTabRow": true,
     "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
 }
