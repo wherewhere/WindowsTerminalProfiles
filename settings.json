@@ -26,223 +26,139 @@
     {
         "defaults": 
         {
+            "adjustIndistinguishableColors": "indexed",
             "antialiasingMode": "cleartype",
-            "colorScheme": "Fluent Design Dark",
+            "colorScheme": 
+            {
+                "dark": "Fluent Design Dark",
+                "light": "Fluent Design Light"
+            },
+            "experimental.repositionCursorWithMouse": true,
             "font": 
             {
-                "face": "UbuntuMono Nerd Font Mono",
+                "face": "Cascadia Code PL",
                 "size": 10
             },
             "opacity": 75,
+            "padding": "0, 0, 0, 0",
+            "startingDirectory": "%USERPROFILE%",
             "useAcrylic": true
         },
         "list": 
         [
             {
-                "closeOnExit": "graceful",
-                "colorScheme": "Fluent Design Dark",
                 "commandline": "C:/Program Files/Git/bin/bash.exe",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402386}",
-                "historySize": 9001,
                 "icon": "C:/Users/qq251/OneDrive/\u56fe\u7247/Saved Pictures/Icons/git.png",
                 "name": "Git",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Git",
-                "useAcrylic": true
+                "tabTitle": "Git"
             },
             {
-                "closeOnExit": "graceful",
-                "colorScheme": "Fluent Design Dark",
-                "cursorShape": "bar",
-                "font": 
-                {
-                    "face": "Cascadia Code PL",
-                    "size": 10
-                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "historySize": 9001,
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "\u547d\u4ee4\u63d0\u793a\u7b26",
-                "useAcrylic": true
+                "tabTitle": "\u547d\u4ee4\u63d0\u793a\u7b26"
             },
             {
-                "closeOnExit": "graceful",
-                "colorScheme": "Fluent Design Dark",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "historySize": 9001,
                 "name": "PowerShell Core",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "PowerShell Core 7",
-                "useAcrylic": true
+                "tabTitle": "PowerShell Core 7"
             },
             {
                 "background": "#012456",
-                "closeOnExit": "graceful",
-                "colorScheme": "Fluent Design Dark",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "historySize": 9001,
                 "name": "Windows PowerShell",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Windows PowerShell",
-                "useAcrylic": true
+                "tabTitle": "Windows PowerShell"
             },
             {
                 "background": "#481036",
-                "closeOnExit": "graceful",
-                "colorScheme": "Fluent Design Dark",
                 "commandline": "wsl.exe -d Ubuntu",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "historySize": 9001,
                 "name": "Ubuntu (WSL)",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Ubuntu (WSL)",
-                "useAcrylic": true
+                "tabTitle": "Ubuntu (WSL)"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Fluent Design Light",
                 "commandline": "powershell.exe python",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Cascadia Code PL",
                     "size": 10
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402366}",
-                "historySize": 9001,
                 "icon": "C:/Users/qq251/OneDrive/\u56fe\u7247/Saved Pictures/Icons/python.png",
                 "name": "Python",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Python 3.12",
-                "useAcrylic": true
+                "tabTitle": "Python 3.12"
             },
             {
-                "closeOnExit": "graceful",
                 "colorScheme": "Fluent Design Light",
                 "commandline": "C:/Program Files/IronPython 3.4/ipy.exe",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "Cascadia Code PL",
                     "size": 10
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a401428}",
-                "historySize": 9001,
                 "icon": "C:/Users/qq251/OneDrive/\u56fe\u7247/Saved Pictures/Icons/ipy.png",
                 "name": "IronPython",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "IronPython 3.4",
-                "useAcrylic": true
+                "tabTitle": "IronPython 3.4"
             },
             {
                 "closeOnExit": "never",
-                "colorScheme": "Solarized Dark (modified)",
+                "colorScheme": 
+                {
+                    "dark": "Solarized Dark",
+                    "light": "Solarized Light"
+                },
                 "commandline": "Azure",
                 "connectionType": "{d9fcfdfa-a479-412c-83b7-c5640e61cd62}",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
-                "historySize": 9001,
                 "name": "Azure Cloud Shell",
                 "opacity": 85,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
                 "source": "Windows.Terminal.Azure",
-                "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "Azure Cloud Shell",
-                "useAcrylic": true
+                "tabTitle": "Azure Cloud Shell"
             },
             {
-                "colorScheme": "Fluent Design Dark",
-                "cursorShape": "bar",
-                "font": 
-                {
-                    "face": "Cascadia Code PL",
-                    "size": 10
-                },
                 "guid": "{bae6ec9a-6858-5d3a-b52c-d6cfb5e01bc5}",
-                "hidden": false,
-                "historySize": 9001,
                 "name": "Developer Command Prompt for VS 2022 [Preview]",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "source": "Windows.Terminal.VisualStudio",
-                "useAcrylic": true
+                "source": "Windows.Terminal.VisualStudio"
             },
             {
                 "background": "#012456",
-                "colorScheme": "Fluent Design Dark",
-                "cursorShape": "bar",
                 "font": 
                 {
                     "face": "UbuntuMono Nerd Font Mono",
                     "size": 10
                 },
                 "guid": "{77dfd842-b6aa-5b70-a60a-739ba0ccbc21}",
-                "hidden": false,
-                "historySize": 9001,
                 "name": "Developer PowerShell for VS 2022 [Preview]",
-                "opacity": 75,
-                "padding": "0, 0, 0, 0",
-                "snapOnInput": true,
-                "source": "Windows.Terminal.VisualStudio",
-                "useAcrylic": true
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -339,52 +255,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C5C8C6",
             "yellow": "#FBA922"
-        },
-        {
-            "background": "#002B36",
-            "black": "#073642",
-            "blue": "#268BD2",
-            "brightBlack": "#002B36",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#2AA198",
-            "foreground": "#839496",
-            "green": "#859900",
-            "name": "Solarized Dark (modified)",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
-        },
-        {
-            "background": "#FDF6E3",
-            "black": "#073642",
-            "blue": "#268BD2",
-            "brightBlack": "#002B36",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#002B36",
-            "cyan": "#2AA198",
-            "foreground": "#657B83",
-            "green": "#859900",
-            "name": "Solarized Light (modified)",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
         }
     ],
     "theme": "system",
